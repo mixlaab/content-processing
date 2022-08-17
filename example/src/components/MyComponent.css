@@ -1,0 +1,27 @@
+.process-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr;
+}
+
+.tile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 2%;
+}
+
+#imageSrc {
+  object-fit: cover;
+}
+
+.filePath {
+  display: flex;
+  justify-content: center;
+}
+
+#fileInput {
+  display: flex;
+  justify-content: center;
+}
